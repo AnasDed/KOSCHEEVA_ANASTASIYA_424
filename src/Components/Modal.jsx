@@ -101,7 +101,7 @@ const Modal = () => {
               onChange={onChangeForm.bind(this)}
               name="first_name"
               id="first_name"
-              placeholder="first_name"
+              placeholder="Имя"
             />
 
             <input
@@ -110,10 +110,11 @@ const Modal = () => {
               onChange={onChangeForm.bind(this)}
               name="last_name"
               id="last_name"
-              placeholder="last_name"
+              placeholder="Фамилия"
             />
 
             <textarea
+              placeholder="Ваше сообщение"
               onChange={onChangeForm.bind(this)}
               name="message"
               id="message"
